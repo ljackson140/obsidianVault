@@ -1,0 +1,5 @@
+- Setup: https://www.youtube.com/watch?v=hSTy_BInQs8&ab_channel=Odysseas
+- Mini-Essays: https://www.youtube.com/watch?v=N4YjXJVzoZY&ab_channel=Odysseas
+- Renaissance Man: https://www.youtube.com/watch?v=dJo0PyD0V2w&ab_channel=Odysseas
+- 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
+- https://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@github.com/ljackson140/obsidianVault.git

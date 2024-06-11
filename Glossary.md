@@ -1,0 +1,19 @@
+1. Stalagmites 
+2. Cumbersome
+3. Ireful
+4. Oxymoronic
+5. Gobsmacked 
+6. Superfluous
+7. Salient 
+8. Effeminate chaste
+9. Solemn 
+10. Papacy
+11. Pillage 
+12. Mutinied 
+13. Imperative 
+14. Dissenting 
+15. Myopic 
+16. Furtuitous
+17. Albeit 
+18. Democide 
+19. Demonized 

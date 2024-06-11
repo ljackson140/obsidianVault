@@ -1,0 +1,1 @@
+“I have so much untapped potential that at this young age I must mold myself into that mold that my kids can look up to”
