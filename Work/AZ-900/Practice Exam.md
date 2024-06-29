@@ -1,28 +1,90 @@
-1. The Hot tier is optimized for storing data that is accessed frequently. The Cool access tier has a slightly lower availability SLA and higher access costs compared to hot data, which are acceptable trade-offs for lower storage costs. Archive storage stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data.
-2. ~~Azure RBAC allows you to assign a set of permissions to a user or group.~~ 
-3. ~~Resource tags are used to locate and act on resources associated with specific workloads, environments, business units, and owners.~~ 
-4. ~~Resource locks prevent the accidental change or deletion of a resource.~~ 
-5. ~~Key Vault is a centralized cloud service for storing an application secrets in a single, central location.~~
-6. ~~An Azure RBAC role is applied to a scope, which is a resource or set of resources that the access applies to.~~ 
-9. ~~Policies enforce different rules across resource configurations so that the configurations stay compliant with corporate standards.~~
-10. ~~In a public cloud, services are offered over the internet and are available to anyone who wants to purchase them.~~ 
-11. ~~A private cloud is limited to a single organization.~~ 
-12. ~~Cloud resources, such as servers and storage, are owned and operated by a third-party cloud service provider and delivered over the internet.~~ 
-13. ~~A private cloud consists of computing resources used exclusively by users from one business or organization.~~
-14. ~~In a consumption-based model, you do not pay for anything until you start using resources, and you only pay for what you use. If you stop using a resource, you stop paying for it.~~ 
-15. ~~High expenditures are usually associated with the purchase of the physical infrastructure, which is not needed in a consumption-based model.~~
-16. ~~Agility means that you can deploy and configure cloud-based resources quickly as app requirements change.~~ 
-17. ~~Scalability means that you can add RAM, CPU, or entire virtual machines to a configuration.~~ 
-18. ~~Elasticity means that you can configure cloud-based apps to take advantage of autoscaling, so apps always have the resources they need.~~ 
-19. ~~High availability means that cloud-based apps can provide a continuous user experience with no apparent downtime, even when things go wrong.~~ 
-20. ~~Geo-distribution makes a service or application available in multiple geographic locations that are typically close to your users.~~
-21. Resource tags can be used to group billing data and categorize costs by runtime environment, such as billing usage for virtual machines running in a production environment.
-22. Azure Reservations offers discounted prices on certain Azure services. Azure Reservations can save you up to 72 percent compared to pay-as-you-go prices. To receive a discount, you can reserve services and resources by paying in advance. Spending limits can suspend a subscription when the spend limit is reached.
-23. Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform.
-24. Azure CLI allows you to use the Bash shell to perform administrative tasks. Bash is used in Linux environments, so a Linux administrator will probably be more comfortable performing command-line administration from Azure CLI.
-25. After an outage, Service Health provides official incident reports called root cause analysis (RCA), which you can share with stakeholders.
-26. Azure Monitor is a platform that collects metric and logging data, such as CPU percentages. The data can be used to trigger autoscaling.  Can generate an alert if virtual machine utilization is over x percentage.
-27. Health advisories are issues that require that you take proactive action to avoid service interruptions, such as service retirements and breaking changes. Service issues are problems such as outages that require immediate actions.
-28. Service Health notifies you of Azure-related service issues, such as region-wide downtime.
-29.  A lock will prevent any user from changing or deleting an virtual machine
-30. Data Policy governs access to data
+- Azure RBAC:  
+	- allows you to assign a set of permissions to a user or group
+	- AZURE RBAC ROLE: is applied to a scope, which is a resource or set of resources that the access applies to 
+- Resource Tags: 
+	- are used to locate and act on resources associated with specific workloads, environments, business units and owners 
+	- can be used to group billing data and categorize costs by runtime environments, such as billing usage for VMs running in a production environment 
+- Resource Locks: prevent the accidental change or deletion of a resource 
+- Key Vault: is a centralized cloud service for storing an applications secrets in a single, central location
+- Policies: enforce different rules across configurations so that the configuration stays compliant with corporate standard
+- Public Cloud: services are offered over the internet and are available to anyone who wants to purchase them
+- Private Cloud: 
+	- is limited to a single organization
+	- consists of computing resources used exclusively by users from one business or organization
+- Cloud Resources: such as servers and storage, are owned and operated by third-party cloud service provider and delivered over the internet 
+- Consumption-based model: You do not have to pay anything until you start using resources and you only pay for what you use. If you stop using a resource, you stop paying for it and no need to purchase and manage infrastructure 
+- High expenditures: usually associated with the purchase of the physical infrastructure which is not needed in a consumption based model
+- Agility: means that you can deploy and configure cloud-based resources quickly as app requirements change 
+- Scalability: you can add RAM, CPU, or entire VMs to a configuration
+- Elasticity: you can configure cloud-based apps to take advantage of auto-scaling, so apps always have the resources they need 
+- High-Availability: cloud-based apps can provide continuous user experience with no apparent downtime, even when things go wrong 
+- Geo-distribution: makes a service or application available in multiple geographic locations that are typically close to your users 
+- Azure Reservation:
+	- offers discounted prices on certain azure services 
+	- save up to 72% compared to pay-as-you-go
+	- to receive a discount you can reserve services and resources by paying in advance 
+	- spending limits can suspend a subscription when the limit is reached 
+- Azure Arc: simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform 
+- Azure CLI: 
+	- allows you to use the bash shell to perform admin tasks 
+	- bash is used in Linux environments 
+	- Linux admins will probably be more comfortable performing command line admin from Azure CLI
+- Azure Service Health: 
+	- provides official incident reports called root cause analysis (RCA) which can be shared with stakeholders 
+	- notifies you of azure related service issues, such as region-wide downtime 
+- Data Policy: governs access to data
+- Azure Pricing Calculator: 
+	- allows you to estimate and configure according to your specific requirements 
+		- you will then receive a consolidated estimated price and a detailed breakdown of the costs associated with each resource you added to your solution 
+- Azure Cost Management: 
+	- create and manage budgets 
+	- generate historical reports and forecast future usage 
+- Azure Portal: provides a GUI to view all services you are using, create new services, configure your services, view reports 
+- Azure Resource Manager (ARM): 
+	- ARM is the deployment and management service for azure, it provides a management layer that enables you to create, update and delete resources in an azure account 
+	- ARM is a json file that defines what you want to deploy 
+- Virtual Network: are part of the IaaS cloud service
+- Azure Region: is always paired with another region in the same geography
+- Management Group: used to efficiently manage access, policies, and compliance for subscriptions
+- Resource groups: can be used to organize Azure resources
+- Administrative units: are used to delegate the administration of Microsoft Entra resources, such as users and groups
+- Subscriptions: azure generates separate billing and invoices for each subscription to organize and manage 
+- Peering: you can link Virtual Networks together using peering
+- Express Route/Azure VPN Gateway: used to connect on-premises to azure
+- Service endpoints: connects azure resources  
+- NSGs: allow you to configure inbound and outbound rules for VMs
+- Azure Blob Storage (service tier): 
+	1. Hot tier is optimal for storing data that is accessed 
+	2. Cool tier is slightly lower availability SLA and higher access costs compared to hot data, which are acceptable trade-offs for lower storage costs 
+	3. Archive storage stores data offline and offers the lowest storage cost but also the highest costs to rehydrate and access data 
+- Conditional Access:
+	- allows admins to control, allows, or deny access to resources based on certain signals 
+	- you can require that access to certain applications only by allowed if the users are using an approved client application 
+	- can use signals to determine information about authentication attempts, and then determine whether to block access or require additional verifications, such as MFA
+- MFA: is a process whereby a user is prompted during sign-in process for an additional form of identification
+- Azure Monitor: 
+	- is a platform that collects metric and logging data such as CPU percentages 
+	- the data can be used to trigger auto-scaling 
+	- can generate an alert if VM utilization is over x percentage 
+- Health Advisories: 
+	- are issues that requires you to take pro active action to avoid service interruptions, such as service retirements and breaking changes 
+	- service issues are problems such as outages that require immediate action 
+- Microsoft Entra: 
+	- connects syncs user identifies from an on-premises active directory domain services domain to microsoft entra 
+	- allows you to use features such as SSO, MFA, and SSPR in both systems 
+	- SSPR prevents users from using known compromised passwords 
+- TCO Calculator: helps you estimate the cost savings over time of operating a solution in Azure compared to operating in an on-premises data center 
+- Vertical Scale: increase compute capacity by adding RAM or CPUs to a virtual machine
+- Horizontally Scale: increases compute capacity by adding instances of resources, such as adding virtual machines to the configuration.
+- IaaS: 
+	- places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity
+	- perfect for a lift-and-shift transition to the cloud relatively straightforward.
+-  PaaS:
+	- is generally better suited for deploying complete environments, like a development environment, where you want to focus on operations instead of configuration and maintenance of the underlying infrastructure.
+- Hybrid Cloud: is a combination of public cloud and private cloud, using both datacenters dedicated solely to one customer and datacenters that are shared with the public.
+- Azure Subscription:
+	- The components created are <font color="#ffc000">resource groups</font> and <font color="#ffc000">resources</font> 
+- Defense in depth: use several layers of protection to prevent information from being accessed or stolen by unauthorized users
+- What is high availability in a public cloud environment dependent on?
+	- Different services have different SLAs. Sometimes different tiers of the same service will offer different SLAs, which can increase or decrease the promised availability.
+- 

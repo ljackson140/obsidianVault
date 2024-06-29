@@ -78,7 +78,7 @@ Tags: [[AZ-900]]
 ### 3 cloud service models:
 
  1. Infrastructure-as-a-Service (IaaS):
-	- Infrastructure = actual servers/virtual servers 
+	- Infrastructure = actual servers/virtual servers aka hardware
 	- scaling is fast 
 	no ownership of hardware
 	

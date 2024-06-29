@@ -1,0 +1,22 @@
+### API Responses
+- Delete (DELETE) responses should be:
+	- 200 OK
+	- 202 Accepted
+	- 204 No content
+- Created (POST):
+	- 200 Ok
+	- 201 Created
+	- 202 Accepted: used in long-running operations
+	- 204 No content: used for successful requests that do not need to return a resource
+	- 422 Unprocessable Entity: server understands the content type of the request entity, but was unable to process the contained instructions i.e no SMES
+- Updated (PUT):
+	-  200 OK
+	- 202 Accepted
+	- 204 No content
+	- **401 Unauthorized**: Indicates that the request requires user authentication
+	- **403 Forbidden**: Indicates that the server understands the request but refuses to authorize it
+	- **404 Not Found**: Indicates that the server cannot find the requested resource
+	- 422 Unprocessable Entity: server understands the content type of the request entity, but was unable to process the contained instructions i.e no SMES
+### Escape Hatch
+- Escape hatches provide a way to handle exceptional cases or perform advanced operations that are not directly supported by the standard APIs or language constructs
+- Basically in my validator I have an rule that checks if the user is the owner of the link and that returning “Admin can override” is the escape hatch 
