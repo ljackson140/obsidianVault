@@ -8,6 +8,7 @@ Tags: [[Goals]]
 # Home Goals
 
 
+- [ ] Attend Home on Thursday
 - [ ] Move into new house 
 - [ ] Setup house:
 	- [ ] Furniture/clothing and appliances into new house
