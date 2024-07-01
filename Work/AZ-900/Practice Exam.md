@@ -79,6 +79,7 @@
 - IaaS: 
 	- places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity
 	- perfect for a lift-and-shift transition to the cloud relatively straightforward.
+	- responsible for OS and applications
 -  PaaS:
 	- is generally better suited for deploying complete environments, like a development environment, where you want to focus on operations instead of configuration and maintenance of the underlying infrastructure.
 - Hybrid Cloud: is a combination of public cloud and private cloud, using both datacenters dedicated solely to one customer and datacenters that are shared with the public.
@@ -87,4 +88,6 @@
 - Defense in depth: use several layers of protection to prevent information from being accessed or stolen by unauthorized users
 - What is high availability in a public cloud environment dependent on?
 	- Different services have different SLAs. Sometimes different tiers of the same service will offer different SLAs, which can increase or decrease the promised availability.
-- 
+- Availability Zones:  are physically separate datacenters within an Azure region
+	- Azure SQL and VM makes sue of availability zones
+- Azure Files: offers fully managed file shares in the cloud with shares that are accessible by using Server Message Block (SMB) protocol
