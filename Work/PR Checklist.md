@@ -15,6 +15,7 @@
 - [ ] **Avoid Unnecessary Constants Referencing Props** (e.g., `const series = props.series;`)
 - [ ] **Use Objects or Constants Instead of Strings** for static data
 - [ ] `Id` should always be an `int` in any data structure
+- [ ] Ensure local logic is in the relevant file - Parent doesn’t need child logic in its level
 
 #### CSS and Styling
 

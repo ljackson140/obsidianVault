@@ -82,6 +82,7 @@
 	- responsible for OS and applications
 -  PaaS:
 	- is generally better suited for deploying complete environments, like a development environment, where you want to focus on operations instead of configuration and maintenance of the underlying infrastructure.
+	- SQL Database
 - Hybrid Cloud: is a combination of public cloud and private cloud, using both datacenters dedicated solely to one customer and datacenters that are shared with the public.
 - Azure Subscription:
 	- The components created are <font color="#ffc000">resource groups</font> and <font color="#ffc000">resources</font> 
@@ -91,3 +92,16 @@
 - Availability Zones:  are physically separate datacenters within an Azure region
 	- Azure SQL and VM makes sue of availability zones
 - Azure Files: offers fully managed file shares in the cloud with shares that are accessible by using Server Message Block (SMB) protocol
+- Incorrect: Data Catalog –– This enables data discovery.
+
+Incorrect: Data Sharing –– This shares data within and between organizations.
+
+Incorrect: Data Estate Insights –– This accesses data estate health.
+
+Correct: Data Policy –– This governs access to data.
+
+Azure Disk Storage
+
+Azure Queue Storage
+
+Azure Table storage
