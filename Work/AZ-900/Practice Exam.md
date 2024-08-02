@@ -92,16 +92,13 @@
 - Availability Zones:  are physically separate datacenters within an Azure region
 	- Azure SQL and VM makes sue of availability zones
 - Azure Files: offers fully managed file shares in the cloud with shares that are accessible by using Server Message Block (SMB) protocol
-- Incorrect: Data Catalog –– This enables data discovery.
-
-Incorrect: Data Sharing –– This shares data within and between organizations.
-
-Incorrect: Data Estate Insights –– This accesses data estate health.
-
-Correct: Data Policy –– This governs access to data.
-
-Azure Disk Storage
-
-Azure Queue Storage
-
-Azure Table storage
+- Data Catalog: This enables data discovery.
+- Data Sharing: This shares data within and between organizations.
+- Data Estate Insights: This accesses data estate health.
+- Data Policy: This governs access to data.
+- Azure Disk Storage:
+	- aaaa
+- Azure Queue Storage:
+	- aaaa
+- Azure Table storage:
+	- aaaa

@@ -3,7 +3,7 @@
 	- If you remove the HEAD in origin (ADO) - basically deleted the branch, you can then push the local branch to be the new origin 
 	git push origin HEAD
 	
-	- removing commits already pushed 
+	- removing commits already pushed
 	git rebase -i <commit-id>
 	
 	- Squash your branch:
@@ -30,6 +30,9 @@
 	 git stash list
 	 git stash apply 0 --> check which one you want to reapply to your branch via 2nd step 
 	
+	- Check differences between 2 branches
+		git diff main..feature/ADO-blahblahblah
+	
 ### NEW BRANCH
 	feature/laku/ADO-
 	bug/laku/ADO-	
@@ -47,6 +50,25 @@
 	
 	Removing a migration 
 	Remove-Migration [insertMigrationName i.e. ADO-23651-Add-Visx-Chart]
+### LAMS DB:	
+	
+	My ID:
+		CreatedBy								|	CreatedByName
+		4b847046-14b9-428e-86fa-8918c2e711ca	|	Jackson, Laku (IST)
+		
+	[System.Environment]::SetEnvironmentVariable('mydbc','RT.ARCS.Infrastructure.Common.Persistence.ARCSDbContext')
+	Add-Migration AddEmailNotificationSetting -c $env:mydbc
+	Remove-migration -c $env:mydbc
+	Update-Database -context $env:mydbchttps://www.sqlshack.com/recover-lost-sa-password/
+	Update-Database  -context $env:mydbc -migration {MigrationName}
+	Get-Migration  -context $env:mydbc
+	
+	These 2 are the main ones;
+	[System.Environment]::SetEnvironmentVariable('mydbc','RT.ARCS.Infrastructure.Common.Persistence.ARCSDbContext')
+	Update-Database -context $env:mydbc
+
+
+	NT Service\MSSQL$LAMSLOCAL
 	
 	
 ### Dialing in on phone thing
@@ -70,3 +92,9 @@ const contextValue = {
     username: "Nathaniel.Pather@riotinto.com",    
   };
 ```
+
+### Rebasing Vim
+- to type `pree i`
+- `esc` brings you out of editing mode 
+- `shift + :` takes you to command 
+- `wq` to save the file and close vim

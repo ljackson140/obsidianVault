@@ -1,11 +1,83 @@
-08/07/2024
-  - [ ] Go over US
+31/07/2024
+- [x] Finalise button
+- [ ] Stop the pre-populating 
 
-- Commentaries table 
+30/07/2024
+- [x] Sprint Review
+- [x] Sprint Retro
+- [x] Refactor frontend  
+
+29/07/2024
+- [x] Fix bugs 
+
+26/07/2024
+- [x] Go over US and breakdown task
+- [x] Add button at empty state
+
+25/07/2024
+- [x] Practice AZ900
+- [x] Fix Comments
+- [x] connect medicare to mygov
+- [x] Call opticomm
+
+24/07/2024
+- [x] First bug not able to replicate, tried locally, dev and test 
+- [x] 2nd bug get all roles including guest
+- [x] 3rd bug 
+- [x] 4th bug
+- [x] Call Superloop
+- [x] Check with Nathaniel on the building 
+- [x] Pick up internet modem
+- [x] Pay tech fee and book them again 
+
+18/07/2024
+- [x] Investigate story
+- [x] Create branch
+- [x] start implementation Identify either its FE or BE changes 
+- [ ] Testing 
+- [x] Ac1
+- [x] Ac2
+- [x] Ac3
+
+17/07/2024
+- [x] Meetings
+- [x] Fix PR comments
+- [x] Pick up new story
+16/07/2024
+- [x] catch up with carmen  
+- [x] rebase maybe 
+- [x] meetings
+- [x] refactor func
+15/07/2024
+- [x] Fix TabOwner to SME
+- [x] Removed duplicate Spec
+- [x] Removed Comments and white spaces 
+- [x] abduh question [nathan]
+- [x] Test Case
+- [x] Refactor logic 
+12/07/2024
+- [x] Get user Name
+- [x] Get role
+- [x] Get disciplines
+- [x] Update HTML
+11/07/2024
+- [x] Refactor Email
+- [x] Include template 
+- [x] Test BE Case
+10/07/2024
+- [x] Backend Email and send 
+
+09/07/2024
+- [x] Pay off Electricity Bill
+- [x] Get Email
+- [x] Sign docs
+08/07/2024
+  - [x] Go over US
+  - [x] Start US
 06/07/2024
 - [x] React Advance Playlist
 - [x] Practice AZ-900 - meaning of the words
-- [ ] Order gas from Origin
+- [x] Order gas from Origin
 - [ ] Find good landscaper/plumber to fix water build up
 
 05/07/2024
@@ -16,13 +88,6 @@
 	- [x] Cannot delete multiple hubs.
 	- [x] Edit dialog doesn't prompt when double-clicking on a hub.
 	- [x] UI change on Add New Hub dialog.
-
-We start of with I wish…. for the vision statement 
-vision statement then vision board exercises 
-
-why this is a problem - business context
-
-
 
 1-07-2024
 - [x] Innovation project meeting
