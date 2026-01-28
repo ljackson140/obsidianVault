@@ -5,3 +5,5 @@
 - Process of sending data from one point to another through a network
 ### Consumption
 - Process of utilizing data by applications and end-users. This involves data being read, processed, and displayed by software or hardware
+
+

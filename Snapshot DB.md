@@ -1,0 +1,4 @@
+- Backup DB:
+	- Tasks => Backup => Full DB => select where you want to back it up to (Create a file)
+- Restore DB: 
+	- Tasks => Restore => Database => generate script to be reused 

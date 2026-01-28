@@ -42,7 +42,7 @@
 - Azure Portal: provides a GUI to view all services you are using, create new services, configure your services, view reports 
 - Azure Resource Manager (ARM): 
 	- ARM is the deployment and management service for azure, it provides a management layer that enables you to create, update and delete resources in an azure account 
-	- ARM is a json file that defines what you want to deploy 
+	- ARM is a Json file that defines what you want to deploy 
 - Virtual Network: are part of the IaaS cloud service
 - Azure Region: is always paired with another region in the same geography
 - Management Group: used to efficiently manage access, policies, and compliance for subscriptions

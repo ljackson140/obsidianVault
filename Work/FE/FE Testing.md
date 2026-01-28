@@ -17,6 +17,13 @@
 	- getBy = when we know an element is present in the [DOM]
 	- findBy = waits for the element to appear in the DOM due to its [asynchronus] nature
 
+### When testing ensure you have breakpoints in all of the files associated with the failing component 
+- why is it failing?
+- is it configured correctly?
+- do you need to mock the data, if yes use either mockContext 
+- think of everything that is associated with the component 
+- How does the rendering occur?
+
 ### Starting FE Test
 Guides:
 	- Testing API Error Response [Scenario = Distributing a Blasting AR that has no SMEs in its disciplines thus returning an error that we show as an banner error]

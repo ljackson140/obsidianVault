@@ -16,6 +16,14 @@ Future behavior:
 - No pre-populating data
 - Still sending a list to the backend 
 
-- [x] Remove IsCheck Property
-- [x] Add a duplicate/single Tracking Comment 
-- [ ] Selected MenuItem Adds a new 
+- [x] Fix Bug in FE 
+- [x] Fix user unable to see difference between the same status
+- [x] Fix dropdown, cannot compare distributed to distributed and permitUssued to permitUssued of the same versions 
+- [x] Wait for abduhs decision regarding the 
+- [x] Fix don’t show distribute in draft permit status 
+- [ ] 
+
+
+### ARWorkCategory
+- workCategory is coming 
+- Once i reach this `const handleFilterWorkSubCategoryList = useCallback(` it clears 
